@@ -1,0 +1,86 @@
+.App {
+  text-align: center;
+  height: 100vh;
+  width: 100%;
+  background-color: #282c34;
+  display: flex;
+  flex-direction: row;
+}
+.box
+{
+  width: 50%;
+  /*background-color: red;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.profile-pic
+{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  /*box-shadow: 5px 5px 10px royalblue;*/
+  animation: myAnimation 3s infinite;
+  overflow: hidden;
+  margin-top: 10px;
+  background-color: black;
+}
+@keyframes myAnimation {
+  0%{box-shadow: 5px 5px 10px royalblue;}
+  33%{box-shadow: 5px 5px 10px rgb(229, 17, 17);}
+  66%{box-shadow: 5px 5px 10px rgb(12, 231, 9);}
+  100%{box-shadow: 5px 5px 10px royalblue;}
+}
+
+textarea
+{
+  width: 80%;
+  height: 250px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px white;
+  background-color: transparent;
+  color: white;
+  padding: 20px;
+  font-size: 20px;
+}
+
+
+
+button
+{
+  width: 80%;
+  border: none;
+  outline: none;
+  background-color: royalblue;
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+button:hover{
+  box-shadow: 5px 5px 10px yellow;
+}
+.pic
+{
+  width: 130px;
+  height: 150px;
+  
+}
+.label
+{
+color: rgb(109, 226, 250);
+font-size: 20px;
+}
+
+
+
+
+
+
