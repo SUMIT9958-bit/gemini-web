@@ -48,7 +48,12 @@ textarea
   padding: 20px;
   font-size: 20px;
 }
-
+@media screen and (max-width:750px){
+  textarea{
+    width: 60%;
+    height: 150px;
+  }
+}
 
 
 button
